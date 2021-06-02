@@ -6,7 +6,7 @@ windicss_classes = ["-backdrop-hue-rotate-15","-backdrop-hue-rotate-180","-backd
 class windicssCompletions(sublime_plugin.EventListener):
     def __init__(self):
 
-        self.class_completions = [("%s \tWindi CSS Class" % s, s) for s in windcss_classes]
+        self.class_completions = [("%s \tWindi CSS Class" % s, s) for s in windicss_classes]
 
     def on_query_completions(self, view, prefix, locations):
 
